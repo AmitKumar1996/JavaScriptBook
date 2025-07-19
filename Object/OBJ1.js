@@ -26,7 +26,10 @@ let book = {
 };
 
 
-console.log(empty);
-console.log(point);
-console.log(p2);
-console.log(book);
+// console.log(empty);
+// console.log(point);
+// console.log(p2);
+// console.log(book);
+console.log(
+    book.author.firstName + " " + book.author.lastName
+);
